@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                      // Target ES6 or later
+      "module": "ES6",                      // Use ES6 modules
+      "outDir": "./",                       // Output directory for compiled JavaScript (same folder)
+      "rootDir": "./",                      // Source directory (root folder)
+      "strict": true,                       // Enable strict type checking
+      "esModuleInterop": true,              // Enable interoperability between ES modules and CommonJS
+      "forceConsistentCasingInFileNames": true // Enforce consistent file naming
+    },
+    "include": ["*.ts"],                    // Include all .ts files in the root directory
+    "exclude": ["node_modules"]             // Exclude unnecessary directories
+  }
+  
